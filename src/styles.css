@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+    box-sizing: border-box;
+      color: #0e2d53;
+      max-width:100% ;
+}

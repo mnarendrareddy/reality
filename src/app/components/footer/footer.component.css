@@ -1,0 +1,29 @@
+.img img{
+    height: 30px;
+    widows: 30px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+ul{
+    list-style-type: none;
+}
+@media screen and (max-width: 1280px){
+    ul{
+        margin-left: 40px;
+    }
+   
+}
+.cet{
+    height:auto ;
+    width:100%;
+    border: 3px  solid #cccccc;
+    padding-top: 30px;
+    border-radius: 40px;
+}
+.cet p {
+    margin-top: 9%;
+    text-align:center; 
+}

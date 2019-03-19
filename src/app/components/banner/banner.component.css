@@ -1,0 +1,12 @@
+
+ li{
+     display: flex;
+     list-style:none ;
+ }
+.banner{
+background-image: url(../../../assets/banner.png);
+background-repeat: no-repeat;
+height: 550px;
+width: 100%;
+background-size:cover;
+}

@@ -1,0 +1,15 @@
+.align{
+    display: flex;
+   text-align:center;
+}
+.put{
+    width: 80%;
+    height: 70px;
+}
+button{
+    width: 100px;
+    color:white;
+    background-color: #10767b;
+    height:40px; 
+    border-radius:10px; 
+}
