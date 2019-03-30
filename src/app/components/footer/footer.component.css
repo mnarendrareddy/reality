@@ -1,6 +1,6 @@
 .img img{
     height: 30px;
-    widows: 30px;
+    width: 30px;
 }
 .img{
     display: flex;
@@ -10,18 +10,15 @@
 ul{
     list-style-type: none;
 }
-@media screen and (max-width: 1280px){
-    ul{
-        margin-left: 40px;
-    }
-   
-}
+
+
 .cet{
     height:auto ;
     width:100%;
     border: 3px  solid #cccccc;
     padding-top: 30px;
     border-radius: 40px;
+   padding-left: 25px;
 }
 .cet p {
     margin-top: 9%;

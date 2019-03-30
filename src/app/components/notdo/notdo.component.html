@@ -1,63 +1,46 @@
 <h1 style="text-align:center">What does a Referral Associate NOT DO?</h1>
-<div align="center">
-    <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="100" fxFlex.lg="100" fxFlex.xl="100">
-        <div fxFlex="100" fxLayout="row wrap" fxLayoutAlign="center center">
-            <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="50" fxFlex.lg="25" fxFlex.xl="25">
-                <div fxFlex="100" fxLayout="row" fxLayoutAlign="start start"><img src="../../../assets/notleft.svg">
+<div>
+   
+        <div  fxFlex.md="15" fxFlex="30">
+                <div  fxLayout="row" fxLayoutAlign="start start">
+
+                    <img src="../../../assets/notleft.svg">
                 </div>
             </div>
-            <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="50" fxFlex.lg="25" fxFlex.xl="25">
-                <div fxFlex="100" fxLayout="column" fxLayoutAlign="start start">
-                    <h1>01.</h1>
-                    <p>You have a current license and many community connections, but have no time for managing the
-                        details
-                        of real estate transactions;</p>
-                </div>
+    <div fxLayout="row wrap" fxLayoutAlign="space-evenly center"  fxFlex="70">
+            <ng-container *ngFor="let card of cards;">
+        <div fxFlex.xs="70" fxFlex.sm="70" fxFlex.md="35">  
+            <div fxLayout="column" fxLayoutGap="5%" fxLayoutAlign="start start" class="align" >
+                 <h2>{{card.id}}</h2>
+                <p>{{ card.p }}</p>
             </div>
-            <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="50" fxFlex.lg="25" fxFlex.xl="25">
-                <div fxFlex="100" fxLayout="column" fxLayoutAlign="start start">
-                    <h1>02.</h1>
-                    <p>You have connections who want to purchase property in distant markets;</p>
-                </div>
-            </div>
-            <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="50" fxFlex.lg="25" fxFlex.xl="25">
-                <div fxFlex="100" fxLayout="column" fxLayoutAlign="start start">
-                    <h1>03.</h1>
-                    <p>You have connections who move into the local area with no knowledge of the area;</p>
-                </div>
-            </div>
+            
         </div>
-    </div>
+    </ng-container>
+           </div>
+
+       
 </div>
-<div align="center">
-    <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="100" fxFlex.lg="100" fxFlex.xl="100">
-        <div fxFlex="100" fxLayout="row wrap" fxLayoutAlign="center center">
-            <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="50" fxFlex.lg="25" fxFlex.xl="25">
-                <div fxFlex="100" fxLayout="column" fxLayoutAlign="center center">
-                    <h1>04.</h1>
-                    <p>You have a license in one state but have moved elsewhere; you can still benefit from real estate
-                        transactions happening in your sphere of influence in your former location.</p>
+<div>
+    <div fxLayout="row wrap" fxLayoutAlign="space-evenly center" fxFlex="70">
+                <ng-container *ngFor="let card of cards1;">
+            <div fxFlex.xs="70" fxFlex.sm="70" fxFlex.md="35">  
+                <div fxLayout="column" fxLayoutGap="5%" fxLayoutAlign="start start" class="align">
+                   <h2>{{card.id}}</h2>
+                    <p>{{ card.p }}</p>
                 </div>
+                
             </div>
-            <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="50" fxFlex.lg="25" fxFlex.xl="25">
-                <div fxFlex="100" fxLayout="column" fxLayoutAlign="start start">
-                    <h1>05.</h1>
-                    <p>Still have questions? See <br>our FAQ’s page!</p>
-                </div>
-            </div>
-            <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="50" fxFlex.lg="25" fxFlex.xl="25">
-                <div fxFlex="100" fxLayout="column" fxLayoutAlign="start start">
-                    <h1>06.</h1>
-                    <p> In sollicitudin at libero ac fermentum. Fusce arcu odio, pretium hendrerit enim eget, tempus
-                        mollis diam. </p>
-                </div>
-            </div>
-            <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="50" fxFlex.lg="25" fxFlex.xl="25">
-                <div fxFlex="100" fxLayout="row" fxLayoutAlign="end center">
+        </ng-container>
+               </div>
+            
+           
+            
+            <div  fxFlex="30">
+                <div  fxLayout="row" fxLayoutAlign="end end">
 
                     <img src="../../../assets/notright.svg">
                 </div>
             </div>
-        </div>
-    </div>
+        
 </div>

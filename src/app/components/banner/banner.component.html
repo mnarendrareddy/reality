@@ -1,43 +1,60 @@
-<div align="center">
-  <div fxFlex.xs="100" FxFlex.sm="100" fxFlex.md="100" fxFlex.lg="100" fxFlex.xl="100">
-    <div fxLayout="row wrap" fxLayoutAlign="center center">
-      <div fxLayout="row" fxLayoutAlign="center center" fxFlex="20">
-
-        <img src="../../../assets/logo.png" style="margin-top:20px">
-
+<div fxLayout="row wrap" fxLayoutAlign="center center" align="center">
+  <div fxLayout="row" fxLayoutAlign="center center" fxFlex="100">
+    <div fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="100">
+      <div>
+        <img src="../../../assets/logo.png" style="margin-top:20px" />
       </div>
-      <div fxFlex="10"></div>
-      <div fxLayout="row" fxLayoutAlign="space-around center" fxFlex="50" style="list-style:none">
-        <li>Home</li>
-        <li>Join Us</li>
-        <li>Faq's</li>
-        <li>Send a Referral</li>
-        <li>Continuing Education</li>
+    </div>
+    <div fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="100" fxFlex="60">
+      <div fxLayout="row" style="list-style:none" fxLayoutAlign="end center">
+        <nav>
+          <a href="#" id="menu-icon"></a>
+
+          <ul class="set">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Join Us</a></li>
+            <li><a href="#">Faq's</a></li>
+            <li><a href="#">Send a Referral</a></li>
+            <li><a href="#">Continuing Education</a></li>
+          </ul>
+        </nav>
       </div>
-      <div fxLayout="row" fxLayoutAlign="end center" fxFlex="20" style="list-style:none">
-        <div fxFlex="20">
-          <li>Sign in</li>
-        </div>
-        <div fxFlex="40">
-          <li>Get started now</li>
-        </div>
-
+    </div>
+    <div fxFlex.xs="100" fxFlex.sm="100" fxFlex.md="100" fxFlex="25">
+      <div
+        fxLayout="row"
+        style="list-style:none"
+        fxLayoutAlign="space-evenly center"
+      >
+        <li>Sign in</li>
+        <li>Get started now</li>
       </div>
-      <div class="banner">
-        <div fxFlex="20" fxLayoutAlign="start start"><img src="../../../assets/leftlogo.png" height="42%"></div>
-
-        <div fxFlex="60">
-          <h1 style="margin-top:200px">Realty Referral Resource</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
-        </div>
-
-
-        <div fxFlex="20" fxLayoutAlign="end start"><img src="../../../assets/rightlogo.svg" height="42%px" style="margin-top:80px"></div>
-
-      </div>
-      <h2 fxFlex="100">Scroll Down </h2><img src="../../../assets/down.png" height="30px" width="30px">
-
     </div>
   </div>
+  <div class="banner">
+    <div fxFlex="10" fxLayoutAlign="start start">
+      <img src="../../../assets/leftlogo.png" height="42%" />
+    </div>
+
+    <div fxFlex="80">
+      <h1 class="head">
+        Realty Referral Resource
+      </h1>
+      <h2>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the
+      </h2>
+    </div>
+
+    <div fxFlex="10" fxLayoutAlign="end start">
+      <img
+        src="../../../assets/rightlogo.svg"
+        height="42%px"
+        style="margin-top:80px"
+      />
+    </div>
+  </div>
+  <h2 style="margin-top:50px;margin-bottom:20px " fxFlex="100">Scroll Down</h2>
+  <img src="../../../assets/down.png" height="30px" width="30px" />
 </div>

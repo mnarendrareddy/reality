@@ -1,0 +1,22 @@
+h1{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    color:#10767b; 
+}
+h2 {
+    font-size: 35px;
+    color: #283583;
+    
+}
+.align p{
+    width: 185px;
+    
+}
+.align{
+    width: 200px;
+   height: 200px;
+    padding-left: 20px;
+    background-color: #f8f8f8;
+    margin-top: 100px;
+}
